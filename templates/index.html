@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    {% load static %}
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+    <title>Предсказатель рейтинга</title>
+  </head>
+  <body>
+    <h2>Предсказания рейтинга фильма по отзыву.</h2>
+    <h3>
+      Получите предсказание рейтинга фильма по вашему отзыву в 10 бальной шкале,
+      <br>
+      а также статус отзыва (плохой/хороший).
+    </h3>
+    <p>Введите свой отзыв на английском языке о фильме ниже:</p>
+
+    <form action="{% url 'result' %}">
+
+      {% csrf_token %}
+
+      <textarea type="text" name="review" cols=10 rows=3></textarea>
+      <br>
+      <input type="submit">
+      <p>Мы вернем вам предсказание</p>
+
+    </form>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+html {
+    background: #e2fff5;
+    font-family:cursive
+    }
+h2 {
+    font-weight: normal
+    }
+h3 {
+    font-weight: normal
+    }
+input {
+    font-size: 16px;
+    font-family:cursive
+    }
+textarea {
+    background: #b3ffe5;
+    border: 2px solid #a9c358;
+    padding: 10px;
+    width: 50%;
+    height: 200px;
+    box-sizing: border-box;
+    font-size: 14px;
+    }

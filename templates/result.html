@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    {% load static %}
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <title>Предсказание</title>
+  </head>
+  <body>
+    <h2>Предсказанный рейтинг</h2>
+    <h3>{{prediction|linebreaksbr}}</h3>
+    <a href="{% url 'home' %}">Вернуться назад</a>
+  </body>
+</html>
