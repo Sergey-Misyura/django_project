@@ -2,8 +2,8 @@
 Приложение с моделью машинного обучения, готовое к размещению на pythonanywhere.com<br/>
 <br/>
 Для размещения необходимо выполнить следующее:<br/>
-1. В settings.py уже записано ALLOWED_HOSTS = ['*'] .<br/>
-2. Уже создан requirements.txt .<br/>
+1. В репозитории в django_project/settings.py уже записано ALLOWED_HOSTS = ['*'] .<br/>
+2. В репозитории уже создан requirements.txt .<br/>
 3. Пройти регистрацию на pythonanywhere.com и открыть bash .<br/>
 4. Клонировать репозиторий git clone https://github.com/Sergey-Misyura/django_project .<br/>
 5. Настроить переменные среды:<br/>
